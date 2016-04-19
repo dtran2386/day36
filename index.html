@@ -1,0 +1,21 @@
+<!doctype html>
+<html>
+    <head>
+        <script src="http://underscorejs.org/underscore-min.js"></script>
+        <link type="text/css" rel="stylesheet" href="css/style.css">
+        <script src="js/app.js"></script>
+        <script type="text/template" id="list-view-template">
+            <img src= <%= image %>
+            <h2> <%= heroName %> </h2>
+        </script>
+    </head>
+    <body>
+        <h1>Fetch them all</h1>
+        <input type="text" id="search-box" placeholder="search words in hero name">
+        <div id="results">
+            <ol id="list"></ol>
+                <li></li>
+        </div>
+    </body>
+</html>
+
